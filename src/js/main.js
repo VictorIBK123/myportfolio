@@ -78,7 +78,7 @@ const projectsData = [
         technologies: ["React Native", "Expo", "Typescript", "Firebase","Cloudinary"],
         image: "fas fa-shopping-cart",
         github: "https://github.com/VictorIBK123/TechhGadgetStore.git",
-        demo: "#"
+        demo: "https://drive.google.com/file/d/1Wwgeq6kkBiA3ZFFmAGuylGNfphj9W1lf/view?usp=drive_link"
     },
     {
         title: "AI Quiz App",
@@ -86,7 +86,7 @@ const projectsData = [
         technologies: ["React Native", "Expo", "Gemini API"],
         image: "fas fa-camera",
         github: "https://github.com/VictorIBK123/AIQuiz.git",
-        demo: "#"
+        demo: "https://drive.google.com/file/d/1bpUiu2BCd8QZAV85AZc9LRAie3peD8zK/view?usp=drive_link"
     },
     {
         title: "AI Chatbot App",
@@ -94,7 +94,7 @@ const projectsData = [
         technologies: ["React Native", "Expo", "Gemini API"],
         image: "fas fa-dumbbell",
         github: "https://github.com/VictorIBK123/aichatbot.git",
-        demo: "#"
+        demo: "https://drive.google.com/file/d/1TnfrcsDYNY2XlSksOLiSfKacJRI-1GiW/view?usp=drive_link"
     },
     
 ];
