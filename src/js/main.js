@@ -76,7 +76,7 @@ const projectsData = [
         title: "Tech Gadget Store",
         description: "A scalable React Native e-commerce application designed for seemless browsing, shopping cart functionality and secure user authentication.",
         technologies: ["React Native", "Expo", "Typescript", "Firebase","Cloudinary"],
-        image: "fas fa-shopping-cart",
+        image: "./assets/images/tech.png",
         github: "https://github.com/VictorIBK123/TechhGadgetStore.git",
         demo: "https://drive.google.com/file/d/1Wwgeq6kkBiA3ZFFmAGuylGNfphj9W1lf/view?usp=drive_link"
     },
@@ -84,7 +84,7 @@ const projectsData = [
         title: "AI Quiz App",
         description: "An AI-powered quiz app integrated with Gemini AI to dynamically generate quizzes based on user preferences. Unlike traditional quiz apps with a fixed set of questions, AI Quiz ensures fresh and engaging content every time.",
         technologies: ["React Native", "Expo", "Gemini API"],
-        image: "fas fa-camera",
+        image: "./assets/images/quiz.png",
         github: "https://github.com/VictorIBK123/AIQuiz.git",
         demo: "https://drive.google.com/file/d/1bpUiu2BCd8QZAV85AZc9LRAie3peD8zK/view?usp=drive_link"
     },
@@ -92,7 +92,7 @@ const projectsData = [
         title: "AI Chatbot App",
         description: "An intelligent and responsive mobile AI chatbot that leverages Gemini API for natural language understanding. The app offers seamless conversation, a modern user interface, and persistent chat history ideal for users seeking personalized interaction. ",
         technologies: ["React Native", "Expo", "Gemini API"],
-        image: "fas fa-dumbbell",
+        image: "./assets/images/chatbot.png",
         github: "https://github.com/VictorIBK123/aichatbot.git",
         demo: "https://drive.google.com/file/d/1TnfrcsDYNY2XlSksOLiSfKacJRI-1GiW/view?usp=drive_link"
     },
@@ -117,7 +117,7 @@ function createProjectCard(project) {
     
     card.innerHTML = `
         <div class="project-image">
-            <i class="${project.image}"></i>
+            <img height="200" width="100" src="${project.image}" alt="${project.title}" />
         </div>
         <div class="project-content">
             <h3>${project.title}</h3>
