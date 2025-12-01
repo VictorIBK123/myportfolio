@@ -96,6 +96,14 @@ const projectsData = [
         github: "https://github.com/VictorIBK123/aichatbot.git",
         demo: "https://drive.google.com/file/d/1TnfrcsDYNY2XlSksOLiSfKacJRI-1GiW/view?usp=drive_link"
     },
+    {
+        title:'Todo App (with AI voice enabled input)',
+        description: "This is a simple task management app built with React Native, Expo, and TypeScript. \nIt allows users to add, view, edit, and delete to-do items. It enables to also add todo with voice, integrated with a backend that uses GEMINI API (I built the backend too). Tasks are stored locally on the device, so they remain persistent even after closing the app.",
+        technologies: ["React Native", "Expo", "Typescript", "Gemini API"],
+        image: "./assets/images/todo.png",
+        github: "https://github.com/VictorIBK123/Todo-App.git",
+        demo: "https://drive.google.com/file/d/1R8l0lxGnM0q61WNlcqwYG09FUUbnHP91/view?usp=drive_link"
+    }
     
 ];
 
